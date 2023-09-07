@@ -1,0 +1,53 @@
+
+
+.activities-container{
+    display: grid;
+    width: 80vw;
+    margin: 2rem auto;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+}
+
+.activity{
+    display: grid;
+    background: var(--clr-white);
+    text-align: center;
+    padding: 2rem 1rem;
+    border-radius: 2rem;
+}
+
+.subcribe{
+    border-radius: 2rem;
+    background: var(--clr-inner-bg);   
+}
+
+.subscribe-content{
+    display: grid;
+    align-content: center;
+    margin-left: 3rem;
+}
+
+.cta-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+
+.cta-app-container{
+    display: flex;
+    gap: .5rem;
+}
+
+.destinations-container{
+    text-align: center;
+}
+
+/* LandScape Less than 768*/
+@media (max-width: 768.98px) {
+    .subscribe-content{
+        margin: 0 1rem 2rem;
+        text-align: center;
+        order: 2;
+    }
+}

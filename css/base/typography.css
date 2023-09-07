@@ -1,0 +1,42 @@
+
+.hero-title{
+    font-family: var(--ff-main);
+    font-size: clamp(var(--fs-lg), 4rem, var(--fs-xl));
+    font-weight: var(--fw-bk);
+}
+
+.hero-text{
+    font-size: var(--fs-md);
+    width: clamp(30ch, 50%, 55ch);
+    margin: 0 auto 2rem;
+}
+
+.activity-title{
+    font-size:  var(--fs-md);
+    font-family: var(--ff-main);
+    margin: 1rem 0 0;
+}
+
+.activity-text{
+    font-size: var(--fs-nm);
+}
+
+.destinations-title{
+    font-family: var(--ff-main);
+    font-size: clamp(var(--fs-md), 1.875rem, var(--fs-lg));
+    width: 17ch;
+    margin: 1rem auto;
+}
+
+.subscribe-title{
+    font-size: clamp(2rem, 2.25rem, var(--fs-lg)) ;
+    width: min(80%, 90%, 100%);
+    margin: 0;
+}
+
+/* LandScape Less than 768*/
+@media (max-width: 768.98px) {
+    .subscribe-title{
+        margin: auto;
+    }
+}

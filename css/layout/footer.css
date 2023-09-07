@@ -1,0 +1,47 @@
+
+
+.footer-container{
+    display: grid;
+    border-top-left-radius: 6rem;
+    border-top-right-radius: 6rem;
+    color: var(--clr-black);
+    width: 100%;
+    margin: 2rem 0 0;
+    background: var(--clr-inner-bg);
+}
+
+.footer-content{
+    display: grid;
+    width: 80vw;
+    margin: 2rem auto;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+}
+
+.footer-links{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(146px, 1fr));
+    gap: 1rem;
+}
+
+.nav-footer-list{
+    padding: 0;
+    list-style-type: none;
+}
+
+.nav-footer-link{
+    color: var(--clr-black);
+    text-decoration: none;
+    font-size: var(--fs-md);
+}
+
+.footer-legal{
+    text-align: center;
+    font-size: var(--fs-md);
+}
+
+.download-app{
+    display: grid;
+    width: 80vw;
+    margin: auto;
+}

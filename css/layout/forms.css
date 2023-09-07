@@ -1,0 +1,20 @@
+
+
+.subscribe-form{
+    background: var(--clr-white);
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    gap: .5rem;
+}
+
+.email{
+    border: none;
+    padding: .5rem;
+    width: 100%;
+}
+
+.email:focus{
+    box-shadow: 0 0 0 .1 var(--clr-main);
+}

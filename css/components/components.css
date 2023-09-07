@@ -1,0 +1,82 @@
+
+.btn{
+    display: flex;
+    align-items: center;
+    background: var(--clr-main);
+    border-radius: 1.5rem;
+    padding: .5rem 2rem;
+    text-decoration: none;
+}
+
+.view-all-btn{
+    background: var(--clr-main-bg);
+    color: var(--clr-main);
+    margin-top: 1rem;
+    border: .1rem solid var(--clr-main);
+}
+
+.activity-icon{
+    margin: auto;
+}
+
+.activity-thumb{
+    display: flex;
+    position: relative;
+    padding: 0 1rem;
+}
+
+.activity-image{
+    display: block;
+    width: 100%;
+    border-radius: 1rem;
+}
+
+.like-btn{
+    position: absolute;
+    background: var(--clr-white);
+    border: none;
+    border-radius: .5rem;
+    top: 1rem;
+    right: 2rem;
+}
+
+.activity-price{
+    display: block;
+    position: absolute;
+    background: var(--clr-white);
+    color: var(--clr-main);
+    text-align: center;
+    padding:  .5rem 2rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    left: 50%;
+    transform: translate(-50%, 0);
+    bottom: 0;
+}
+
+.read-btn{
+    display: block;
+    width: 50%;
+    padding: 1rem 1.5rem;
+    background: var(--clr-gray-bg);
+    color: var(--clr-gray-txt);
+    text-decoration: none;
+    margin: auto;
+}
+
+.subscribe-image{
+    display: block;
+    margin: auto;
+    width: 75%;
+    margin-top: 2rem;
+}
+
+.submit-btn{
+    background: url(../../imgs/icons/send.svg) var(--clr-main);
+    border: none;
+    padding: .75rem 1.25rem;
+    border-radius: .75rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
